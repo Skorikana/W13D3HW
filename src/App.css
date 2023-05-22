@@ -5,7 +5,11 @@
   align-items:center;
   border:solid 2px;
   border-color:orange;
-  width:25%;
+  width:47%;
+  margin-top:0.3%;
+  margin-bottom:1%;
+  margin-left:0.5%;
+  margin-right:0.5%;
 }
 .employee-container{
   flex-direction:column;
@@ -13,25 +17,34 @@
   justify-content:space-evenly;
   border:solid 2px;
   border-color:brown;
-  margin-right:20%;
-  width:25%;
+  margin-top:0.3%;
+  margin-bottom:1%;
+  margin-left:0.5%;
+  margin-right:0.5%;
+  width:47%;
 }
 .search-bar{
   display:flex;
   border:solid 3px;
   width:90%;
   border-color:green;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top:2%;
+  margin-bottom:2%;
 
 }
  .App{
   display:flex;
   margin-left:20%;
-  margin-top:2%;
-  border:solid2px;
- border-color:black;
+  width:50%;
+  border:solid 3px;
+  border-color:black;
+  justify-content:space-evenly;
 }
 .employee-directory{
   display:flex;
+  justify-content:center;
   border:solid 2px;
   margin-top:3px;
   margin-bottom:2px;
@@ -43,5 +56,55 @@
   margin-top:3px;
   margin-left:10px;
   border-color:rgb(39, 170, 226);
+  width:91%;
+}
+.employeelist{
+  border:solid 2px;
+  border-color:rgb(244, 85, 244);
   width:90%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:1%;
+  margin-bottom:5%;
+}
+.listitem{
+  border:solid 2px;
+  border-color:red;
+  text-align:center;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:4%;
+  margin-bottom:5%;
+}
+.list-items{
+  flex-direction:column;
+  border:solid 2px;
+  border-color:gray;
+  margin-top:1%;
+  margin-left:3%;
+  margin-right:5%;
+}
+.office{
+  border:solid 2px;
+  border-color:gray;
+  margin-left:3%;
+  margin-right:5%;
+}
+.cell{
+  border:solid 2px;
+  border-color:gray;
+  margin-left:3%;
+  margin-right:5%;
+}
+.sms{
+  border:solid 2px;
+  border-color:gray;
+  margin-left:3%;
+  margin-right:5%;
+}
+.email{
+  border:solid 2px;
+  border-color:gray;
+  margin-left:3%;
+  margin-right:5%;
 }

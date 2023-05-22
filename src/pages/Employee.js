@@ -10,18 +10,18 @@ export default function Employee() {
       <h4>Julie Taylor</h4>
        <p>VP of Marketing</p>
       </div>
-      <div>
+      <div className ="office">
       <p>Call-Office:781-000-0002</p>
       </div>
-      <div>
+      <div className="cell">
       <p>Cell:617-000-0002</p>
       </div>
-      <div>
+      <div className ="sms">
       <p>SMS:617-000-0002</p>
       </div>
-      <div>
+      <div className ="email">
       <p>E-mail:jtaylor@fakemail.com</p>
-      </div>
+      </div> 
     </div>
    
   )
